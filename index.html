@@ -43,54 +43,79 @@
 
 <!-- Schema.org: LocalBusiness -->
 <script type="application/ld+json">
-{
+
+ {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "ElectroPro Mdq",
-  "description": "Expertos en instalación de sistemas eléctricos, cámaras de seguridad, alarmas y redes informáticas en Mar del Plata.",
-  "url": "https://electropromdq.com.ar",
+  "description": "Electricista, instalación de cámaras, alarmas y redes informáticas en Mar del Plata. ¡Contáctanos!",
+  "url": "https://electropromdq.com.ar/",
+  "telephone": "+54 223 6821998",
+  "openingHours": "Mo-Su 00:00-23:59",
+  "image": "https://electropromdq.com.ar/assets/images/logo.webp",
+  "sameAs": [
+    "https://www.facebook.com/ElectroproMDQ",
+    "https://www.instagram.com/ElectroproMDQ"
+  ],
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Mar del Plata",
     "addressRegion": "Buenos Aires",
-    "addressCountry": "AR",
-    "postalCode": "7600"
+    "postalCode": "7600",
+    "addressCountry": {
+      "@type": "Country",
+      "name": "AR"
+    }
   },
-  "telephone": "+54 223 6821998",
-  "openingHours": "Mo-Su 00:00-23:59",
-  "image": "https://electropromdq.com.ar/assets/images/logo.webp",
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": -38.050829,
-    "longitude": -57.559470
+    "longitude": -57.55947
   },
-  "sameAs": [
-    "https://www.facebook.com/ElectroproMDQ",
-    "https://twitter.com/ElectroproMDQ"
-  ],
-  "service": [
+  "makesOffer": [
     {
-      "@type": "Service",
+      "@type": "Offer",
       "name": "Instalación de sistemas eléctricos",
-      "description": "Servicio profesional de instalación eléctrica en Mar del Plata."
+      "description": "Electricista en Mar del Plata: Instalaciones y Reparaciones Eléctricas.",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Instalación de sistemas eléctricos",
+        "description": "Electricista en Mar del Plata: Instalaciones y Reparaciones Eléctricas."
+      }
     },
     {
-      "@type": "Service",
+      "@type": "Offer",
       "name": "Cámaras de seguridad",
-      "description": "Instalación de cámaras de vigilancia adaptadas a tus necesidades."
+      "description": "Instalación de cámaras de seguridad adaptadas a tus necesidades.",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Cámaras de seguridad",
+        "description": "Instalación de cámaras de seguridad adaptadas a tus necesidades."
+      }
     },
     {
-      "@type": "Service",
+      "@type": "Offer",
       "name": "Alarmas de seguridad",
-      "description": "Sistemas de alarmas para proteger tu hogar o negocio las 24/7."
+      "description": "Instalación y Mantenimiento de Alarmas de Seguridad.",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Alarmas de seguridad",
+        "description": "Instalación y Mantenimiento de Alarmas de Seguridad."
+      }
     },
     {
-      "@type": "Service",
+      "@type": "Offer",
       "name": "Redes informáticas",
-      "description": "Instalación y mantenimiento de redes informáticas."
+      "description": "Soporte técnico especializado en redes informáticas.",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Redes informáticas",
+        "description": "Soporte técnico especializado en redes informáticas."
+      }
     }
   ]
 }
+
 </script>
 
 <!-- Schema.org: Detalle de Servicios -->
